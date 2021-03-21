@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Frontbook</title>
+    <meta charset="UTF-8">
+    <link href="img/icons/favicon.png" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/main.css?v=44510" rel="stylesheet" type="text/css">
+    <meta name="theme-color" content="#2A7FFF">
+    <script src="js/main.js?v=44510" type="text/javascript"></script>
+    <meta name="description" content="Desarrollo web Frontend y Backend a tu disposición. Cuenta con nosotros si tienes un proyecto web en mente o necesitas apoyo en desarrollo Frontend, Backend y Diseño.">
+    <!-- Meta tags facebook-->
+    <meta property="og:title" content="Desarrollo web Frontend y Backend a tu disposición">
+    <meta property="og:description" content="Cuenta con nosotros si tienes un proyecto web en mente o necesitas apoyo en desarrollo Frontend, Backend y Diseño.">
+    <meta property="og:image" content="img/share.jpg">
+    <!-- Meta tags twitter cards-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Desarrollo web Frontend y Backend a tu disposición">
+    <meta name="twitter:description" content="Cuenta con nosotros si tienes un proyecto web en mente o necesitas apoyo en desarrollo Frontend, Backend y Diseño.">
+    <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+    
+  </head>
+  <body>
+    <header>
+      <div class="header__primary">
+        <div class="header__wrap">
+          <div class="header__inner">
+            <div class="header__logo"><a href="index.html"><img src="img/icons/logo-frontback-color.png"></a></div>
+            <div class="header__nav">
+              <div class="header__nav__bg"></div>
+              <div class="header__nav__nav">
+                <div class="header__nav__close">
+                  <div></div>
+                  <div></div>
+                </div>
+                <div class="header__nav__back">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+                <nav>
+                  <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="html.html">HTML</a></li>
+                    <li><a href="css.html">CSS</a></li>
+                    <li><a href="javascript.html">Javascript</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="header__right">
+              <div class="header__item">
+                <div class="header__switch">
+                  <input type="checkbox" id="switchdark">
+                  <label for="switchdark">Toggle</label>
+                </div>
+              </div>
+              <div class="header__item header__item--ham">
+                <div class="header__ham"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="sections">
+      <section class="section--diccionary">
+        <div class="section__search"><img src="img/icons/search.svg"></div>
+        <div class="section__wrap">
+          <div class="section__body">
+            <aside>
+              <div class="aside__wrap">
+                <div class="aside__close"><span class="fa fa-close"></span></div>
+                <div class="aside__header">
+                  <div class="aside__icon"><img src="img/icons/js.png"></div>
+                </div>
+                <div class="aside__body">
+                  <ul>
+                    <li><a data-goto=".section__theme--0" class="current">¿Que es JAVASCRIPT?</a></li>
+                    <li><a data-goto=".section__theme--1">Consola</a></li>
+                    <li><a data-goto=".section__theme--2">Variables</a></li>
+                    <li><a data-goto=".section__theme--3">Constantes</a></li>
+                    <li><a data-goto=".section__theme--4">Tipos de datos</a></li>
+                    <li><a data-goto=".section__theme--5">Condicionales </a></li>
+                    <li><a data-goto=".section__theme--6">Bucles</a></li>
+                    <li><a data-goto=".section__theme--7">Funciónes básicas</a></li>
+                    <li><a data-goto=".section__theme--8">Facilisis ut cras</a></li>
+                    <li><a data-goto=".section__theme--9">Donec feugiat fringilla</a></li>
+                    <li><a data-goto=".section__theme--10">Hendrerit luctus tellus</a></li>
+                    <li><a data-goto=".section__theme--11">Diam magna torquent</a></li>
+                  </ul>
+                </div>
+              </div>
+            </aside>
+            <div class="section__book">
+              <div class="section__content">
+                <div class="section__theme section__theme--0">
+                  <h2>¿Que es JAVASCRIPT?</h2>
+                  <p>Javascript es un lenguaje de programación, o lo que es lo mismo, un mecanismo con el que podemos decirle a nuestro navegador que tareas debe realizar, en que orden y cuantas veces (por ejemplo).</p>
+                  <p>Muchas de las tareas que realizamos con HTML y CSS se podrían realizar con Javascript. De hecho, es muy probable que al principio nos parezca que es mucho más complicado hacerlo con Javascript, y que por lo tanto no merece la pena. Sin embargo, con el tiempo veremos que Javascript nos ofrece una mayor flexibilidad y un abanico de posibilidades más grande, y que bien usadas, pueden ahorrarnos bastante tiempo.</p>
+                </div>
+                <div class="section__theme section__theme--1">
+                  <h2>Consola</h2>
+                  <p>En esta consola, podemos escribir funciones o sentencias de Javascript que estarán actuando en la página que se encuentra en la pestaña actual del navegador. De esta forma podremos observar los resultados que nos devuelve en la consola al realizar diferentes acciones. Para ello, vamos a ver algunas bases:</p>
+                  <blockquote>También se puede utilizar directamente el atajo de teclado CTRL+SHIFT+J, que en algunos navegadores nos lleva directamente a la consola.</blockquote>
+                  <pre><code class="language-javascript">console.log()	//    Muestra la información proporcionada en la consola Javascript.
+console.info()	//Equivalente al anterior. Se utiliza para mensajes de información.
+console.warn()	//Muestra información de advertencia. Aparece en amarillo.
+console.error()	//Muestra información de error. Aparece en rojo.
+console.clear()	//Limpia la consola. Equivalente a pulsar CTRL+L o escribir clear().
+console.log("%c¡Hola Manz!","background:linear-gradient(#000, #555); color:#fff; padding: 5px 10px;"); // Estilos en la consola</code></pre>
+                </div>
+                <div class="section__theme section__theme--2">
+                  <h2>Variables</h2>
+                  <p>En programación, las variables son espacios donde se puede guardar información y asociarla a un determinado nombre. De esta forma, cada vez que se consulte ese nombre posteriormente, te devolverá la información que contiene. La primera vez que se realiza este paso se suele llamar inicializar una variable.</p>
+                  <p>En Javascript, si una variable no está inicializada, contendrá un valor especial: undefined, que significa que su valor no está definido aún, o lo que es lo mismo, que no contiene información:</p>
+                  <pre><code class="language-javascript">var a; // Declaramos una variable "a", pero no le asociamos ningún contenido.
+var b = 0; // Declaramos una variable de nombre "b", y le asociamos el número 0.
+console.log(b); // Muestra 0 (el valor guardado en la variable "b")
+console.log(a); // Muestra "undefined" (no hay valor guardado en la variable "a")</code></pre>
+                  <blockquote>Las mayúsculas y minúsculas en los nombres de las variables de Javascript importan. No es lo mismo una variable llamada precio que una variable llamada Precio, pueden contener valores diferentes.</blockquote>
+                  <p>Si tenemos que declarar muchas variables consecutivas, una buena práctica suele ser escribir sólo el primer var y separar por comas las diferentes variables con sus respectivos contenidos (método 3). Aunque se podría escribir todo en una misma línea (método 2), con el último método el código es mucho más fácil de leer:</p>
+                  <pre><code class="language-javascript">// Método 1: Declaración de variables de forma independiente
+var a = 3;
+var c = 1;
+var d = 2;
+// Método 2: Declaración masiva de variables con el mismo var
+var a = 3,
+c = 1,
+d = 2;
+// Método 3: Igual al anterior, pero mejorando la legibilidad del código
+var a = 3,
+c = 1,
+d = 2;</code></pre>
+                  <blockquote>Como su propio nombre indica, una variable puede variar su contenido, ya que aunque contenga una cierta información, se puede volver a cambiar. A esta acción ya no se le llama inicializar una variable, sino declarar una variable (o más concretamente, redeclarar). En el código se puede diferenciar porque se omite el var:</blockquote>
+                  <pre><code class="language-javascript">var a = 40; // Inicializamos la variable "a" al valor 40.
+a = 50; // Ahora, hemos declarado que pasa a contener 50 en lugar de 40.</code></pre>
+                  <p>En las versiones modernas de Javascript (ES6 o ECMAScript 2015) o posteriores, se introduce la palabra clave let en sustitución de var. Con ella, en lugar de utilizar los ámbitos globales y a nivel de función (var), utilizamos los ámbitos clásicos de programación: ámbito global y ámbito local.</p>
+                  <p>La diferencia se puede ver claramente en el uso de un bucle for con var y con let:</p>
+                  <pre><code class="language-javascript">/** Opción 1: Bucle con let **/
+console.log("Antes: ", p);    // Antes: undefined
+for (let p = 0; p < 3; p++)
+	console.log("- ", p);      // Durante: 0, 1, 2
+console.log("Después: ", p);  // Después: undefined
+/** Opción 2: Bucle con var **/
+console.log("Antes: ", p);    // Antes: undefined
+for (var p = 0; p < 3; p++)
+	console.log("- ", p);      // Durante: 0, 1, 2
+console.log("Después: ", p);  // Después: 3 (WTF!)</code></pre>
+                  <p>Vemos que utilizando let la variable p sólo existe dentro del bucle, ámbito local, mientras que utilizando var la variable p sigue existiendo fuera del bucle, ya que debe tener un ámbito global o a nivel de función.</p>
+                </div>
+                <div class="section__theme section__theme--3">
+                  <h2>Constantes</h2>
+                  <p>De forma tradicional, Javascript no incorporaba constantes. Sin embargo, en ECMAScript 2015 (ES6) se añade la palabra clave const, que inicializada con un valor concreto, permite crear variables con valores que no pueden ser cambiados.</p>
+                  <pre><code class="language-javascript">const NAME = "Manz";
+console.log(NAME);</code></pre>
+                  <p>En el ejemplo anterior vemos un ejemplo de const, que funciona de forma parecida a let. Una buena práctica es escribir el nombre de la constante en mayúsculas, para identificar rápidamente que se trata de una constante y no una variable, cuando leemos código ajeno.</p>
+                  <blockquote>Realmente, las constantes de Javascript son variables inicializadas a un valor específico y que no pueden redeclararse. No confundir con valores inmutables, ya que como veremos posteriormente, los objetos si pueden ser modificados aún siendo constantes.</blockquote>
+                </div>
+                <div class="section__theme section__theme--4">
+                  <h2>Tipos de datos</h2>
+                  <p>En Javascript disponemos de los siguientes tipos de datos:</p>
+                  <pre><code class="language-javascript">var edad = 50                   // Valor numérico (enteros, decimales, etc...)
+var nombre = "Eduardo"          // Valor de texto (cadenas de texto, carácteres, etc...)
+var bolean = true               // Valor booleano (valores verdadero o falso)
+var undefined = undefined       // Valor sin definir (variable sin inicializar)
+var funcion = function() {}     // Función (función guardada en una variable)
+var objeto = {}                 // Objeto (estructura más compleja)
+var array = [3,4,5,8]           // COnjunto de datos en una variable</code></pre>
+                  <p>Nos encontraremos que muchas veces no resulta tan sencillo saber que tipo de dato tiene una variable, o simplemente viene oculto porque el valor lo devuelve una función o alguna otra razón similar. Hay varias formas de saber que tipo de dato tiene una variable en Javascript:</p>
+                  <h4>Utilizando typeof() </h4>
+                  <p>Si tenemos dudas, podemos utilizar la función typeof, que nos devuelve el tipo de dato de la variable que le pasemos por parámetro. Veamos que nos devuelve typeof() sobre las variables del ejemplo anterior:</p>
+                  <pre><code class="language-javascript">console.log(typeof s); // "string"
+console.log(typeof n); // "number"
+console.log(typeof b); // "boolean"
+console.log(typeof u); // "undefined"</code></pre>
+                  <blockquote>La función typeof() solo sirve para variables con tipos de datos básicos o primitivos.</blockquote>
+                  <h4>Utilizando constructor.name</h4>
+                  <p>Más adelante, nos encontraremos que en muchos casos, typeof() resulta insuficiente porque en tipos de datos más avanzados simplemente nos indica que son objetos. Con constructor.name podemos obtener el tipo de constructor que se utiliza, un concepto que veremos más adelante dentro del tema de clases. De momento, si lo necesitamos, podemos comprobarlo así:</p>
+                  <pre><code>console.log(s.constructor.name); // String
+console.log(n.constructor.name); // Number
+console.log(b.constructor.name); // Boolean
+console.log(u.constructor.name); // ERROR, sólo funciona con variables definidas</code></pre>
+                  <blockquote>OJO: Sólo funciona en variables definidas (no undefined) y sólo en ECMAScript 6.						</blockquote>
+                </div>
+                <div class="section__theme section__theme--5">
+                  <h2>Condicionales</h2>
+                  <p>Cuando escribimos código Javascript, por defecto, el navegador leerá el script de forma secuencial, es decir, una línea detrás de otra, desde arriba hacia abajo. Por lo tanto, una acción que realicemos en la línea 5 nunca ocurrirá antes que una que aparece en la línea 3. Ya veremos que más adelante esto se complica, pero en principio partimos de esa base.</p>
+                  <p>Al hacer un programa necesitaremos establecer condiciones o decisiones, donde buscamos que el navegador realice una acción A si se cumple una condición o una acción B si no se cumple. Este es el primer tipo de estructuras de control que encontraremos. Para ello existen varias estructuras de control:
+                    <ul>
+                      <li><strong>If:</strong>	Condición simple: Si ocurre algo, haz lo siguiente...</li>
+                      <li><strong>If/else:</strong>	Condición con alternativa: Si ocurre algo, haz esto, sino, haz lo esto otro...</li>
+                      <li><strong>?:</strong>	Operador ternario: Equivalente a If/else, método abreviado.</li>
+                      <li><strong>Switch:</strong>	Estructura para casos específicos: Similar a varios If/else anidados.</li>
+                    </ul>
+                  </p>
+                  <h4>Condicional If</h4>
+                  <p>Quizás, el más conocido de estos mecanismos de estructura de control es el if (condicional). Con él podemos indicar en el programa que se tome un camino sólo si se cumple la condición que establezcamos:</p>
+                  <pre><code class="language-javascript">var nota = 7;
+console.log("He realizado mi examen.");
+// Condición (si nota es mayor o igual a 5)
+if (nota >= 5) {
+	console.log("¡Estoy aprobado!");
+}</code></pre>
+                  <h4>Condicional If / else		</h4>
+                  <p>Pero se puede dar el caso que queramos establecer una alternativa a una condición. Para eso utilizamos el if seguido de un else. Con esto podemos establecer una acción A si se cumple la condición, y una acción B si no se cumple.</p>
+                  <p>Vamos a modificar el ejemplo anterior para mostrar también un mensaje cuando estamos suspendidos, pero en este caso, en lugar de mostrar el mensaje directamente con un console.log vamos a guardar ese texto en una nueva variable calificacion:</p>
+                  <pre><code class="language-javascript">var nota = 7;
+console.log("He realizado mi examen. Mi resultado es el siguiente:");
+// Condición
+if (nota < 5) {
+	// Acción A (nota es menor que 5)
+	calificacion = "suspendido";
+} else {
+	// Acción B: Cualquier otro caso a A (nota es mayor o igual que 5)
+	calificacion = "aprobado";
+}
+console.log("Estoy", calificacion);</code></pre>
+                  <h4>Operador ternario </h4>
+                  <p>El operador ternario es una alternativa de condicional if/else de una forma mucho más corta y, en muchos casos, más legible. Vamos a reescribir el ejemplo anterior utilizando este operador:</p>
+                  <pre><code class="language-javascript">var nota = 7;
+console.log("He realizado mi examen. Mi resultado es el siguiente:");
+// Operador ternario: (condición ? verdadero : falso)
+var calificacion = nota < 5 ? "suspendido" : "aprobado";
+console.log("Estoy", calificacion);</code></pre>
+                  <p>Este ejemplo hace exactamente lo mismo que el ejemplo anterior. La idea del operador ternario es que podemos condensar mucho código y tener un if en una sola línea. Obviamente, es una opción que sólo se recomienda utilizar cuando son if muy pequeños.</p>
+                  <h4>Condicional Switch </h4>
+                  <p>La estructura de control switch permite definir casos específicos a realizar en el caso de que la variable expuesta como condición sea igual a los valores que se especifican a continuación mediante los case. No obstante, hay varias puntualizaciones que aclarar sobre este ejemplo:</p>
+                  <pre><code class="language-javascript">var nota = 7;
+console.log("He realizado mi examen. Mi resultado es el siguiente:");
+// Nota: Este ejemplo NO es equivalente al ejemplo anterior (leer abajo)
+switch (nota) {
+	case 10:
+		calificacion = "Insuficiente";
+		break;
+	case 9:
+	case 8:
+		calificacion = "Notable";
+		break;
+	case 7:
+	case 6:
+		calificacion = "Bien";
+		break;
+	case 5:
+		calificacion = "Suficiente";
+		break;
+	case 4:
+	case 3:
+	case 2:
+	case 1:
+	case 0:
+		calificacion = "Insuficiente";
+		break;
+	default:
+		// Cualquier otro caso
+		calificacion = "Nota errónea";
+		break;
+}
+console.log("He obtenido un", calificacion);</code></pre>
+                  <p>En primer lugar, el ejemplo anterior no es exactamente equivalente al anterior. Este ejemplo funcionaría si sólo permitimos notas que sean números enteros, es decir, números del 0 al 10, sin decimales. En el caso de que nota tuviera por ejemplo, el valor 7.5, mostraría Nota errónea.</p>
+                  <blockquote>El ejemplo de los if múltiples si controla casos de números decimales porque establecemos comparaciones de rangos con mayor o menor, cosa que con el switch no se puede hacer. El switch está indicado para utilizar sólo con casos con valores concretos y específicos.</blockquote>
+                  <p>En segundo lugar, observa que al final de cada caso es necesario indicar un break para salir del switch. En el caso que no sea haga, el programa saltará al siguiente caso, aunque no se cumpla la condición específica.</p>
+                </div>
+                <div class="section__theme section__theme--6">
+                  <h2>Bucles e iteraciones</h2>
+                  <p>Una de las principales ventajas de la programación es la posibilidad de crear bucles y repeticiones para tareas específicas, y que no tengamos que realizarlas varias veces de forma manual. Existen muchas formas de realizar bucles, vamos a ver los más basicos, similares en otros lenguajes de programación:</p>
+                  <ul>
+                    <li><strong>while:</strong>	Bucles simples.</li>
+                    <li><strong>for:</strong>	Bucles clásicos por excelencia.</li>
+                    <li><strong>do..while:</strong>	Bucles simples que se realizan siempre como mínimo una vez.</li>
+                  </ul>
+                  <p>Antes de comenzar a ver que tipos de bucles existen en Javascript, es necesario conocer algunos conceptos básicos de los bucles:</p>
+                  <ul>
+                    <li><strong>Condición:</strong> Al igual que en los if, en los bucles se va a evaluar una condición para saber si se debe repetir el bucle o finalizarlo. Generalmente, si la condición es verdadera, se repite. Si es falsa, se finaliza.</li>
+                    <li><strong>Iteración:</strong> Cada repetición de un bucle se denomina iteración. Por ejemplo, si un bucle repite una acción 10 veces, se dice que tiene 10 iteraciones.</li>
+                    <li><strong>Contador:</strong> Muchas veces, los bucles tienen una variable que se denomina contador, porque cuenta el número de repeticiones que ha hecho, para finalizar desde que llegue a un número concreto. Dicha variable hay que inicializarla (crearla y darle un valor) antes de comenzar el bucle.</li>
+                    <li><strong>Incremento:</strong> Cada vez que terminemos un bucle se suele realizar el incremento (o decremento) de una variable, generalmente la denominada variable contador.</li>
+                    <li><strong>Bucle infinito:</strong> Es lo que ocurre si en un bucle se nos olvida incrementar la variable contador o escribimos una condición que nunca se puede dar. El bucle se queda eternamente repitiéndose y el programa se queda «colgado».</li>
+                  </ul>
+                  <h4>Bucle while</h4>
+                  <p>El bucle while es uno de los bucles más simples que podemos crear. Vamos a repasar el siguiente ejemplo y todas sus partes, para luego repasar que ocurre en cada iteración del bucle:</p>
+                  <pre><code class="language-javascript">i = 0; // Inicialización de la variable contador
+// Condición: Mientras la variable contador sea menor de 5
+while (i < 5) {
+	console.log("Valor de i:", i);
+	i = i + 1; // Incrementamos el valor de i
+}</code></pre>
+                  <h4>Bucle for</h4>
+                  <p>El bucle for es quizás uno de los más utilizados en el mundo de la programación. En Javascript se utiliza exactamente igual que en otros lenguajes como Java o C/C++. Veamos el ejemplo anterior utilizando un bucle for:</p>
+                  <pre><code class="language-javascript">// for (inicialización; condición; incremento)
+for (i = 0; i < 5; i++) {
+	console.log("Valor de i:", i);
+}</code></pre>
+                  <p>Como vemos, la sintaxis de un bucle for es mucho más compacta y rápida de escribir que la de un bucle while. La primera vez puede parecer algo confusa, pero es mucho más práctica porque te obliga a escribir la inicialización, la condición y el incremento antes del propio bucle, y eso hace que no te olvides de estos tres puntos fundamentales.</p>
+                  <blockquote>En programación es muy habitual empezar a contar desde cero. Mientras que en la vida real se contaría desde 1 hasta 10, en programación se contaría desde 0 hasta 9.</blockquote>
+                  <h4>do..while</h4>
+                  <p>La sentencia crea un bucle que ejecuta una sentencia especificada, hasta que la condición de comprobación se evalúa como falsa. La condición se evalúa después de ejecutar la sentencia, dando como resultado que la sentencia especificada se ejecute al menos una vez.</p>
+                  <pre><code class="language-javascript">let result = '';
+let i = 0;
+do {
+	i = i + 1;
+	result = result + i;
+} while (i < 5);
+console.log(result);
+// expected result: "12345"								</code></pre>
+                </div>
+                <div class="section__theme section__theme--7">
+                  <h2>Funciones Básicas</h2>
+                  <p>En programación, cuando nuestro código se va haciendo cada vez más grande, necesitaremos buscar una forma de organizarlo y prepararnos para reutilizarlo y no repetir innecesariamente las mismas tareas. Para ello, un primer recurso muy útil son las funciones.</p>
+                  <p>Las funciones nos permiten agrupar líneas de código en tareas con un nombre, para que, posteriormente, podamos hacer referencia a ese nombre para realizar todo lo que se agrupe en dicha tarea. Para usar funciones hay que hacer 2 cosas:</p>
+                  <ul>
+                    <li><strong>Declarar la función:</strong> Preparar la función, darle un nombre y decirle las tareas que realizará.</li>
+                    <li><strong>Ejecutar la función:</strong> «Llamar» a la función para que realice las tareas de su contenido.</li>
+                  </ul>
+                  <h4>Declaración</h4>
+                  <p>En el siguiente ejemplo veremos la declaración de una función llamada saludar:</p>
+                  <pre><code class="language-javascript">// Declaración de la función "saludar"
+function saludar() {
+	// Contenido de la función
+	console.log("Hola, soy una función");
+}</code></pre>
+                  <h4>Ejecución		</h4>
+                  <p>Veamos, ahora sí, el ejemplo completo con declaración y ejecución:</p>
+                  <pre><code class="language-javascript">// Declaración de la función "saludar"
+function saludar() {
+	// Contenido de la función
+	console.log("Hola, soy una función");
+}
+// Ejecución de la función
+saludar();</code></pre>
+                  <h4>¿Qué son los parámetros? </h4>
+                  <p>Pero las funciones no sirven sólo para esto. Tienen mucha más flexibilidad de la que hemos visto hasta ahora. A las funciones se les pueden pasar parámetros, que no son más que variables que existirán sólo dentro de dicha función, con el valor pasado desde la ejecución.</p>
+                  <p>Veamos el siguiente ejemplo, utilizando el parámetro <strong>hasta</strong>:</p>
+                  <pre><code class="language-javascript">// Declaración
+function tablaDelUno(hasta) {
+	for (i = 0; i <= hasta; i++) console.log("1 x", i, "=", 1 * i);
+}
+// Ejecución
+tablaDelUno(10);
+tablaDelUno(5);	</code></pre>
+                  <blockquote>La idea de las funciones es enfocarnos en el código de la declaración, y una vez lo tengamos funcionando, nos podemos olvidar de él porque está encapsulado dentro de la función. Simplemente tendremos que recordar el nombre de la función y los parámetros que hay que pasarle. Esto hace que sea mucho más fácil trabajar con el código.	</blockquote>
+                  <h4>	Parámetros por defecto			</h4>
+                  <p>Es posible que en algunos casos queramos que ciertos parámetros tengan un valor sin necesidad de escribirlos en la ejecución. Es lo que se llama un valor por defecto. 				</p>
+                  <p>En nuestro ejemplo anterior, nos podría interesar que la tabla de multiplicar llegue siempre hasta el 10, ya que es el comportamiento por defecto. Si queremos que llegue hasta otro número, lo indicamos explicitamente, pero si lo omitimos, queremos que llegue hasta 10. Esto se haría de la siguiente forma: </p>
+                  <pre><code class="language-javascript">function tablaMultiplicar(tabla, hasta = 10) {
+	for (i = 0; i <= hasta; i++) console.log(tabla, "x", i, "=", tabla * i);
+}
+// Ejecución
+tablaMultiplicar(2); // Esta tabla llegará hasta el número 10
+tablaMultiplicar(2, 15); // Esta tabla llegará hasta el número 15</code></pre>
+                  <blockquote>Hay que remarcar que esta característica se añade en ECMAScript 6, por lo que en navegadores sin soporte podría no funcionar correctamente.</blockquote>
+                  <h4>Devolución de valores</h4>
+                  <p>Hasta ahora hemos utilizado funciones simples que realizan acciones o tareas (en nuestro caso, mostrar por consola), pero habitualmente, lo que buscamos es que esa función realice una tarea y nos devuelva la información al exterior de la función, para así utilizarla o guardarla en una variable, que utilizaremos posteriormente para nuestros objetivos.</p>
+                  <p>Para ello, se utiliza la palabra clave <strong>return</strong>, que suele colocarse al final de la función, ya que con dicha devolución terminamos la ejecución de la función (si existe código después, nunca será ejecutado).</p>
+                  <p>Veamos un ejemplo con una operación muy sencilla, para verlo claramente:</p>
+                  <pre><code class="language-javascript">// Declaración
+function sumar(a, b) {
+	return a + b; // Devolvemos la suma de a y b al exterior de la función
+	console.log("Ya he realizado la suma."); // Este código nunca se ejecutará
+}
+// Ejecución
+var resultado = sumar(5, 5); // Se guarda 10 en la variable resultado	</code></pre>
+                  <p>Como podemos ver, esto nos permite crear funciones más modulares y reutilizables que podremos utilizar en multitud de casos, ya que la información se puede enviar al exterior de la función y utilizarla junto a otras funciones o para otros objetivos.						</p>
+                </div>
+                <div class="section__theme section__theme--8">
+                  <h2>Duis in orci
+                  </h2>
+                  <p>Proin mollis eros enim aliquet ullamcorper euismod at justo ultrices. Sagittis primis elit aenean sodales tellus posuere potenti id non. Platea maecenas dui feugiat condimentum nullam luctus massa vehicula scelerisque. Nulla aenean eros elit rhoncus mauris a curabitur curabitur tristique justo pellentesque vel dui ut.
+                  </p>
+                  <p>Eget bibendum tellus molestie diam sed vehicula dictum arcu luctus. Vel venenatis ac vulputate quam sodales congue sociosqu suspendisse eros tempus luctus fermentum hendrerit potenti.
+                  </p>
+                  <p>Tempus fusce sociosqu eget sem praesent sagittis id cubilia ante. Bibendum dapibus etiam nisi cras tellus fringilla ut conubia eu. Feugiat taciti posuere turpis cursus tempus tellus velit sem vitae dictum fames auctor eleifend proin.
+                  </p>
+                  <p>Phasellus dui elit himenaeos risus interdum felis rutrum scelerisque cras mollis vel curabitur class senectus.
+                  </p>
+                  <p>Orci consectetur sodales arcu nibh praesent molestie porta rutrum aenean. Nostra tellus id commodo quis tortor ultrices platea pulvinar morbi. Neque ac pretium luctus ullamcorper euismod urna lacinia viverra turpis massa inceptos curae condimentum duis.
+                  </p>
+                  <p>Mi habitant quis donec aenean mollis ad faucibus metus habitant. Molestie vitae class quis lobortis senectus orci sem dictumst neque. Id aenean dui non conubia maecenas aptent cras curabitur suscipit. Eleifend nunc felis aliquet adipiscing laoreet netus fames bibendum sociosqu quisque ornare aptent venenatis phasellus.
+                  </p>
+                  <p>Fermentum nostra pellentesque adipiscing platea potenti nisl id platea nulla. Augue dui sapien donec habitant egestas odio justo turpis donec proin accumsan curae rhoncus dui.
+                  </p>
+                </div>
+                <div class="section__theme section__theme--9">
+                  <h2>Habitant lectus dictum
+                  </h2>
+                  <p>Sodales vitae inceptos viverra sapien tincidunt imperdiet risus urna curae. In mi ante felis mollis ac etiam proin himenaeos vivamus. Mi hendrerit interdum litora cursus tortor quisque consectetur consectetur integer. Mollis tincidunt habitasse taciti malesuada tortor morbi donec hac leo etiam vulputate vel odio hac.
+                  </p>
+                  <p>Tristique ad sem class integer aenean colus pharetra gravida luctus. Lectus pharetra nisi conubia habitant justo dictum pellentesque fusce vulputate enim sodales non rutrum ac.
+                  </p>
+                  <p>Tristique iaculis porttitor conubia semper pulvinar tristique dapibus justo commodo. Etiam rhoncus ligula urna ad colus lectus elit nostra inceptos. Vulputate proin vitae elit mattis eget curabitur aptent nullam lacinia elit elit nam fames maecenas.
+                  </p>
+                  <p>Est malesuada erat diam condimentum feugiat tincidunt curabitur interdum curae fames semper taciti condimentum conubia.
+                  </p>
+                  <p>Ac commodo morbi tempor placerat dictum curabitur vitae rhoncus taciti. Consectetur varius etiam rutrum tincidunt tempus ultrices nullam id volutpat. Taciti nam potenti turpis curae blandit quisque fusce metus sem donec per facilisis vestibulum curae.
+                  </p>
+                  <p>Integer diam donec pellentesque curae blandit iaculis euismod neque magna. Diam a ac torquent luctus porta interdum lectus sem iaculis. Aliquet primis colus magna ornare euismod eleifend platea blandit molestie. Tempor hac suspendisse quisque bibendum eleifend viverra vulputate lacinia vivamus platea consequat feugiat suscipit diam.
+                  </p>
+                  <p>Curabitur ut curabitur pulvinar magna sociosqu platea volutpat morbi sagittis. Elit potenti feugiat odio vulputate habitasse conubia elit luctus blandit commodo praesent posuere ante nullam.
+                  </p>
+                </div>
+                <div class="section__theme section__theme--10">
+                  <h2>Ac in sed
+                  </h2>
+                  <p>Nam turpis laoreet sagittis interdum nibh viverra rutrum integer pretium. Urna fringilla ullamcorper gravida semper bibendum praesent odio interdum colus. Aptent lobortis quis tempor varius ullamcorper odio justo fusce colus. Proin quisque metus ac suscipit potenti ante cursus porta volutpat condimentum phasellus commodo interdum vitae.
+                  </p>
+                  <p>Ad at elit nunc tempus adipiscing colus nibh maecenas ornare. Laoreet dictumst est egestas ligula proin lacus bibendum cursus euismod non consequat diam posuere luctus.
+                  </p>
+                  <p>Condimentum fringilla ante sodales volutpat placerat vel magna eleifend senectus. Aliquam sem nibh habitasse est vestibulum tincidunt nullam vehicula ut. Vehicula etiam blandit condimentum lobortis ullamcorper a diam laoreet ullamcorper erat erat non volutpat eleifend.
+                  </p>
+                  <p>Sed imperdiet mauris class ultricies metus sem gravida ultrices erat elementum auctor aliquam varius facilisis.
+                  </p>
+                  <p>Suspendisse aliquam massa semper porta tortor himenaeos nullam ut condimentum. Tempus ultrices curae himenaeos tortor porttitor auctor justo maecenas sed. Conubia molestie iaculis est litora maecenas feugiat est aenean augue litora a nullam metus curabitur.
+                  </p>
+                  <p>Ut eu scelerisque maecenas molestie cursus euismod tempor habitasse arcu. Cras arcu libero turpis tristique nibh pharetra sollicitudin felis eleifend. Duis habitasse praesent etiam non aenean orci torquent nulla justo. Consequat potenti vitae vitae pretium congue nulla lobortis mauris blandit egestas litora himenaeos ultrices volutpat.
+                  </p>
+                  <p>Mollis potenti tempus lectus nunc suspendisse dapibus condimentum gravida gravida. Facilisis commodo cubilia varius orci a morbi nisl elit vulputate commodo nisi fusce accumsan aenean.
+                  </p>
+                </div>
+                <div class="section__theme section__theme--11">
+                  <h2>Magna elementum eleifend
+                  </h2>
+                  <p>Dui integer velit sem eleifend et nibh suscipit ut inceptos. Adipiscing nulla rhoncus odio vulputate tempus etiam tincidunt porta litora. Colus hac elementum semper feugiat fringilla adipiscing facilisis scelerisque nisl. Lectus curae ligula quisque phasellus ultrices bibendum proin dapibus libero praesent et justo at ad.
+                  </p>
+                  <p>Habitant ullamcorper curae per scelerisque tempus luctus rhoncus purus fames. Taciti vulputate velit felis ornare mi facilisis purus elementum massa accumsan lacinia pretium cubilia imperdiet.
+                  </p>
+                  <p>Potenti ad est habitant per vivamus quis phasellus dapibus primis. Vivamus quisque etiam dictumst blandit id est inceptos nostra ante. Facilisis erat quam tempus pellentesque vulputate felis integer litora cursus tincidunt litora est torquent fusce.
+                  </p>
+                  <p>Ligula purus imperdiet colus cursus molestie duis egestas quisque velit aenean augue sed non fermentum.
+                  </p>
+                  <p>Cursus porta ullamcorper nibh laoreet metus interdum nulla semper faucibus. At fames netus himenaeos sem risus lobortis quam eget lacinia. Consectetur vulputate mattis velit ultrices blandit lacus auctor sagittis dictum maecenas tristique augue ultricies nullam.
+                  </p>
+                  <p>Etiam egestas elit convallis augue aenean metus non egestas velit. Netus proin in colus vel platea risus imperdiet quisque cras. Erat hendrerit convallis donec pulvinar lectus aliquam netus integer hendrerit. Ad taciti fermentum porta maecenas integer massa congue adipiscing habitant senectus consectetur donec scelerisque habitasse.
+                  </p>
+                  <p>Condimentum fusce volutpat magna gravida porttitor cras a aenean feugiat. Donec curabitur dapibus commodo hendrerit hendrerit enim sagittis accumsan non blandit eu augue volutpat euismod.
+                  </p>
+                </div>
+                <div class="section__theme section__theme--12">
+                  <h2>Sem vel est
+                  </h2>
+                  <p>Hac pellentesque vestibulum senectus faucibus mauris mollis lectus suscipit ac. Enim dictum fermentum sodales integer senectus aliquet justo eget mauris. Congue eleifend sed facilisis potenti tempus inceptos ornare pharetra eleifend. Mollis per euismod vivamus inceptos sapien nostra semper imperdiet mattis sed facilisis nunc mi porta.
+                  </p>
+                  <p>Potenti feugiat euismod quisque etiam rhoncus vestibulum blandit posuere metus. Vehicula class commodo pretium eu egestas nec colus aenean nibh ad molestie morbi curabitur facilisis.
+                  </p>
+                  <p>Luctus dui nunc praesent massa aliquet venenatis ad odio augue. Augue suscipit potenti convallis laoreet ultricies condimentum aliquam pellentesque nostra. Aenean cursus arcu aenean primis leo cubilia venenatis quisque dui condimentum luctus interdum posuere mollis.
+                  </p>
+                  <p>Litora donec litora nullam habitant tellus vulputate sed commodo sapien sollicitudin aliquam felis sociosqu donec.
+                  </p>
+                  <p>Potenti per interdum hac pulvinar habitasse libero eleifend faucibus fringilla. Congue etiam enim nec dictum mattis eu phasellus donec etiam. Venenatis rutrum curabitur curabitur lacus habitant in tincidunt semper vulputate morbi imperdiet dui consequat ornare.
+                  </p>
+                  <p>In nulla ullamcorper elit ultrices aptent blandit scelerisque class aenean. Consectetur ultrices elementum porttitor netus mi condimentum consectetur fermentum per. Etiam cubilia elementum cras sollicitudin integer vel sagittis lacinia mi. Pretium iaculis congue maecenas orci iaculis viverra dictum id posuere nisl rutrum curabitur etiam ultricies.
+                  </p>
+                  <p>Quisque euismod mattis phasellus arcu commodo lobortis enim turpis vitae. Ultricies et porta primis porta venenatis justo etiam convallis semper nibh phasellus senectus sodales accumsan.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
